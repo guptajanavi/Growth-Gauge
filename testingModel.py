@@ -25,7 +25,7 @@ eyeCas = cv.CascadeClassifier(cv.data.haarcascades+"haarcascade_eye.xml")
 print('Done')
 
 recognizer = cv.face.LBPHFaceRecognizer_create()
-fname = "./Trainer/Trainer.yml"
+fname = "./Trainer.yml"
 if not os.path.isfile(fname):
     print('No such file found')
     exit(0)
@@ -52,7 +52,7 @@ while True:
         
             for (a,b,c,d) in eyes:                
                 roi_eye = roi_face[b:b+d, a:a+c]
-                cv.imwrite("./Sample Results/Img.jpg", roi_eye)
+                cv.imwrite("./Sample Results/Img.jpg", roi_eye)     //enter file path- eg: ./Sample Results/Img.jpg
                 cv.rectangle(roi_face, (a,b), (a+c, b+d), (0,255,0), 2)
                 roi_eye = cv.resize(roi_eye, (224, 224))
                     
