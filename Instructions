@@ -1,7 +1,10 @@
-Hi, my name is Janavi Gupta and I study at Hiranandani Foundation School, Powai. Growth Gauge is a project that is close to my heart as it involves two things that I am very passionate about, namely, computer science and abolishing the taboos of menstruation.
+Hi, my name is Janavi Gupta and I study at Hiranandani Foundation School, Powai. 
+Growth Gauge is a project that is close to my heart as it involves two things that I am very passionate about, namely, computer science and abolishing the taboos of menstruation.
 
 You can find the dataset for this project here: https://www.kaggle.com/guptajanavi/palpebral-conjunctiva-to-detect-anaemia
-Please download it and name it as MalnutritionImages followed by separating anaemic and non-anaemic images labelled as 1 and 2 respectively into separate folders called Anaemic and Non-Anaemic.
+Please download it and name it as MalnutritionImages.
+Then, separate the anaemic and non-anaemic images labelled as 1 and 2 respectively into separate folders called Anaemic and Non-Anaemic.
+You will also find the .h5 obtained from the Keras Model there
 
 You can run the code in the following order:
 1. Create Dataset
