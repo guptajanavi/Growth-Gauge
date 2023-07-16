@@ -1,12 +1,12 @@
-Hi, my name is Janavi Gupta and I study at Hiranandani Foundation School, Powai. 
-Growth Gauge is a project that is close to my heart as it involves two things that I am very passionate about, namely, computer science and abolishing the taboos of menstruation.
+Hi, my name is Janavi Gupta and I am an undergraduate majoring in Computer Science at Carnegie Mellon University. 
+Growth Gauge is a project that I worked on during my last two years of highschool. It is important to me because it lies at the intersection of technology and caregiving, two things that are close to my heart. It is a cost-efficient, easy way to detect iron-deficiency anaemia.
 
 You can find the dataset for this project here: https://www.kaggle.com/guptajanavi/palpebral-conjunctiva-to-detect-anaemia
-Please download it and name it as MalnutritionImages.
+Please download the dataset and rename the folder to MalnutritionImages.
 Then, separate the anaemic and non-anaemic images labelled as 1 and 2 respectively into separate folders called Anaemic and Non-Anaemic.
 You will also find the .h5 obtained from the Keras Model there
 
-You can run the code in the following order:
+Then, run the code in the following order:
 1. Create Dataset
 2. trainModel/ Keras Sequential Model
 3. testingModel/ testingKerasSequentialModel.py
